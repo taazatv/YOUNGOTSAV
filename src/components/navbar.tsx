@@ -6,11 +6,7 @@ import {
   faRocket,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebook,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import {
   Drawer,
   DrawerClose,
@@ -72,19 +68,7 @@ export default function Navbar() {
             </div>
             <div className="flex w-full justify-center gap-2 text-white">
               <a
-                href="#"
-                className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&_*]:text-white hover:[&_*]:text-black"
-              >
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a
-                href="#"
-                className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&_*]:text-white hover:[&_*]:text-black"
-              >
-                <FontAwesomeIcon icon={faYoutube} />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo"
                 className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&_*]:text-white hover:[&_*]:text-black"
               >
                 <FontAwesomeIcon icon={faInstagram} />
@@ -92,13 +76,7 @@ export default function Navbar() {
             </div>
           </DrawerContent>
         </Drawer>
-        <a href="#">
-          <FontAwesomeIcon icon={faFacebook} />
-        </a>
-        <a href="#">
-          <FontAwesomeIcon icon={faYoutube} />
-        </a>
-        <a href="#">
+        <a href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </div>

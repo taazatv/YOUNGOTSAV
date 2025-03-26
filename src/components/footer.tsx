@@ -1,9 +1,5 @@
 import logo from "@/assets/logo.png";
-import {
-  faFacebook,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
@@ -15,19 +11,7 @@ export default function Footer() {
       <img src={logo} className="w-sm" />
       <div className="flex gap-2 text-white">
         <a
-          href="#"
-          className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&_*]:text-white hover:[&_*]:text-black"
-        >
-          <FontAwesomeIcon icon={faFacebook} />
-        </a>
-        <a
-          href="#"
-          className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&_*]:text-white hover:[&_*]:text-black"
-        >
-          <FontAwesomeIcon icon={faYoutube} />
-        </a>
-        <a
-          href="#"
+          href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo"
           className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&_*]:text-white hover:[&_*]:text-black"
         >
           <FontAwesomeIcon icon={faInstagram} />
