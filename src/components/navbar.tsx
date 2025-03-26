@@ -30,7 +30,7 @@ export default function Navbar() {
       </div>
 
       <div className="[&_*]:hover:text-primary flex gap-8 text-lg font-semibold [&_*]:not-hover:text-white [&>a]:max-md:hidden">
-        <a href="#">Home</a>
+        <a href="#gallery">GALLERY</a>
         <Drawer>
           <DrawerTrigger className="cursor-pointer text-white">
             <FontAwesomeIcon icon={faBars} />
