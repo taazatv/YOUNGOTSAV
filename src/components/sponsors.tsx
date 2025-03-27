@@ -1,9 +1,8 @@
-import { faChessPawn } from "@fortawesome/free-regular-svg-icons";
 import Card from "./card";
 
 export default function Sponsors() {
   return (
-    <section className="bg-secondary flex w-screen flex-col items-center gap-8 px-8 py-24">
+    <section className="bg-accent flex w-screen flex-col items-center gap-8 px-8 py-24">
       <hr className="w-20 border-t-4 border-white" />
 
       <div className="flex justify-center">
@@ -16,48 +15,48 @@ export default function Sponsors() {
       </div>
       <div className=".no-scrollbar flex w-full items-center gap-8 overflow-auto py-8">
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/bhagwati.png"}
+          title="Bhagwati"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/impakto.png"}
+          title="Impakto"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/nicco-park.jpg"}
+          title="Nicco Park"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/oshea-herbals.png"}
+          title="Oshea Herbals"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/royal-enfield.jpg"}
+          title="Royal Enfield"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/sah.jpg"}
+          title="Smart And Handsome"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/snakker.png"}
+          title="Snakker"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/wild-stone.png"}
+          title="Wild Stone"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
         <Card
-          icon={faChessPawn}
-          title="Almight Pawn"
+          logoUrl={"/sponsors/win-pens.png"}
+          title="Win Pens"
           description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
         />
       </div>

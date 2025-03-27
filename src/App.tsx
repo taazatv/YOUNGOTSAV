@@ -5,6 +5,7 @@ import Tickers from "./components/tickers";
 import Sponsors from "./components/sponsors";
 import Gallery from "./components/gallery";
 import Footer from "./components/footer";
+import Review from "./components/review";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Description />
       <Sponsors />
       <Gallery />
+      <Review />
       <Footer />
     </div>
   );
