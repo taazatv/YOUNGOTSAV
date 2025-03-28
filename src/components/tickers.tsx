@@ -13,15 +13,15 @@ export default function Tickers() {
     "College 9",
   ];
   const sponsors = [
-    "Sponsor 1",
-    "Sponsor 2",
-    "Sponsor 3",
-    "Sponsor 4",
-    "Sponsor 5",
-    "Sponsor 6",
-    "Sponsor 7",
-    "Sponsor 8",
-    "Sponsor 9",
+    "/sponsors/bhagwati.png",
+    "/sponsors/impakto.png",
+    "/sponsors/nicco-park.jpg",
+    "/sponsors/oshea-herbals.png",
+    "/sponsors/royal-enfield.jpg",
+    "/sponsors/sah.jpg",
+    "/sponsors/snakker.png",
+    "/sponsors/wild-stone.png",
+    "/sponsors/win-pens.png",
   ];
   return (
     <section id="tickers" className="flex w-screen flex-col gap-4 py-4">
@@ -34,7 +34,7 @@ export default function Tickers() {
       >
         {colleges.map((college, i) => (
           <div key={i} className="w-max px-4 font-bold text-white">
-            {college}
+            <img src={college} className="h-12" />
           </div>
         ))}
       </HorizontalTicker>
@@ -48,7 +48,7 @@ export default function Tickers() {
       >
         {sponsors.map((sponsor, i) => (
           <div key={i} className="w-max px-4 font-bold text-black">
-            {sponsor}
+            <img className="h-12" src={sponsor} />
           </div>
         ))}
       </HorizontalTicker>

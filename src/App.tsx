@@ -6,6 +6,7 @@ import Sponsors from "./components/sponsors";
 import Gallery from "./components/gallery";
 import Footer from "./components/footer";
 import Review from "./components/review";
+import Events from "./components/events";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Sponsors />
       <Gallery />
       <Review />
+      <Events />
       <Footer />
     </div>
   );

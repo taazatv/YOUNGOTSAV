@@ -6,10 +6,10 @@ export default function Description() {
     >
       <div className="left-content flex flex-col gap-8">
         <hr className="border-primary w-16 border-t-4" />
-        <div className="line max-w-md text-4xl/tight font-extrabold text-neutral-900 md:text-6xl/tight">
+        <div className="line w-full text-4xl/tight font-extrabold text-neutral-900 md:text-6xl/tight">
           East India’s Biggest College Activation
         </div>
-        <div className="max-w-[44ch] text-lg/loose">
+        <div className="w-full max-w-lg text-lg/loose">
           ✅ 17 Top Colleges | ✅ 1Lakh+ Students Reached | ✅ Unmatched
           Branding Youngotsav 2025 united 1,00,000+ students across 17 colleges
           in Kolkata. From electrifying talent hunts to thrilling interactive
@@ -18,8 +18,8 @@ export default function Description() {
           students a national platform to shine.
         </div>
       </div>
-      <div className="right-content self-end">
-        <img src="http://shtheme.info/demosd/anondho/wp-content/uploads/2019/11/about.png" />
+      <div className="right-content w-full self-end">
+        <img className="w-full" src="/ph2.png" />
       </div>
     </section>
   );
