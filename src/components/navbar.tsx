@@ -56,15 +56,15 @@ export default function Navbar() {
             <div className="text-xl font-bold">Contacts</div>
             <div className="flex items-center gap-4">
               <FontAwesomeIcon icon={faRocket} className="text-primary" />
-              Address Here
+              37 Shakespeare Sarani, Kolkata-17
             </div>
             <div className="flex items-center gap-4">
               <FontAwesomeIcon icon={faPhone} className="text-primary" />
-              Phone No. Here
+              +91 9830797700
             </div>
             <div className="flex items-center gap-4">
               <FontAwesomeIcon icon={faAt} className="text-primary" />
-              Email Address Here
+              vedansh@taazatv.com
             </div>
             <div className="flex w-full justify-center gap-2 text-white">
               <a

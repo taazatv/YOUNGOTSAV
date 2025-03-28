@@ -10,42 +10,46 @@ export default function Review() {
     {
       imgUrl:
         "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial3.png",
-      name: "Pablo Picasso",
-      title: "Artist",
+      name: "Nakul jalan",
+      title: "vice president, win pens",
       review:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum error corporis, dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
-      response:
-        "Odit obcaecati, corrupti velit tempore assumenda labore suscipit sint vel ipsum numquam. Corrupti, quibusdam? dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
+        "Youngotsav 2025 was a refreshing and impactful campaign for us. Taaza TV’s approach of removing the typical setup barriers ensured maximum student engagement with the best cost per customer reached. The focus was purely on experience and interaction, not sales — which truly elevated our branding.",
     },
+
     {
       imgUrl:
         "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial2.png",
-      name: "Gojo Gaara",
-      title: "Side Character",
+      name: "VINEET DAGA",
+      title: "Director @ McNROE - WILD STONE",
       review:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum error corporis, dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
-      response:
-        "Odit obcaecati, corrupti velit tempore assumenda labore suscipit sint vel ipsum numquam. Corrupti, quibusdam? dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
+        "Youngotsav was a brilliantly executed college activation, seamlessly blending engaging experiences with strategic branding. The event stood out for its great planning & execution, ensuring high participation from all the colleges where the activity was done.Its unique approach to engage the youth made it a standout campaign, successfully driving mass engagement.A truly well-coordinated and impactful initiative!",
     },
+
     {
       imgUrl:
         "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial1.png",
-      name: "Ramesh Kumar",
-      title: "Bihari",
+      name: "SAGNIK BANIK",
+      title: "MD, AJANTA SHOES & IMPAKTO",
       review:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum error corporis, dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
-      response:
-        "Odit obcaecati, corrupti velit tempore assumenda labore suscipit sint vel ipsum numquam. Corrupti, quibusdam? dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
+        "I was thoroughly impressed with our partnership at Taaza TV’s Youngotsav.Youngotsav demonstrated exceptional smoothness in execution innovative activities that appealed to a broad spectrum. The differential branding created a distinctive identity that stood out in the market. The setup was both functional and visually impressive, contributing to an overall memorable experience that effectively engaged participants.",
     },
+
+    {
+      imgUrl:
+        "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial1.png",
+      name: "ARVIND SRIVASTAVA",
+      title: "joint registrar, The Heritage College",
+      review:
+        "Fantastic initiative that energized our campus with fun, talent, and excitement. The on-ground management was smooth, and students felt proud seeing themselves on Taaza TV. More than 7,000 students turned for the event at our campus.",
+    },
+
     {
       imgUrl:
         "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/11/01.png",
-      name: "DJ Binod",
-      title: "DJ Waala",
+      name: "DILIP SHAH, dean",
+      title: "Dean, Bhawanipur College",
       review:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum error corporis, dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
-      response:
-        "Odit obcaecati, corrupti velit tempore assumenda labore suscipit sint vel ipsum numquam. Corrupti, quibusdam? dolorum cumque non eaque? Excepturi, ratione ullam! Ut illum consectetur odit.",
+        "Youngotsav was a wonderfully organized event that brought out the true talent and vibrancy of our students. The telecast on Taaza TV gave them a huge morale boost and a platform to shine. The activities, gifts, and overall execution reflected great planning and showcased youth culture beautifully.",
     },
   ];
   const [reviewId, setReviewId] = useState(0);
@@ -82,10 +86,6 @@ export default function Review() {
 
       <div className="review w-full max-w-4xl text-center text-2xl/snug font-semibold text-neutral-900 md:text-4xl/snug">
         {currentReview().review}
-      </div>
-
-      <div className="w-full max-w-4xl text-center text-lg text-neutral-600">
-        {currentReview().response}
       </div>
 
       <button
