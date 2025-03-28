@@ -2,7 +2,7 @@ import Card from "./card";
 
 export default function Sponsors() {
   return (
-    <section className="bg-accent flex w-screen flex-col items-center gap-8 px-8 py-24">
+    <section className="bg-accent flex w-screen flex-col items-center gap-8 px-8 py-4 md:py-24">
       <hr className="w-20 border-t-4 border-white" />
 
       <div className="flex justify-center">

@@ -8,8 +8,7 @@ import { useState } from "react";
 export default function Review() {
   const reviews = [
     {
-      imgUrl:
-        "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial3.png",
+      imgUrl: "/client/nakul.jpg",
       name: "Nakul jalan",
       title: "vice president, win pens",
       review:
@@ -17,8 +16,7 @@ export default function Review() {
     },
 
     {
-      imgUrl:
-        "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial2.png",
+      imgUrl: "/client/vinit daga.jpg",
       name: "VINEET DAGA",
       title: "Director @ McNROE - WILD STONE",
       review:
@@ -26,8 +24,7 @@ export default function Review() {
     },
 
     {
-      imgUrl:
-        "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial1.png",
+      imgUrl: "/client/sagnik banik.jpg",
       name: "SAGNIK BANIK",
       title: "MD, AJANTA SHOES & IMPAKTO",
       review:
@@ -35,8 +32,7 @@ export default function Review() {
     },
 
     {
-      imgUrl:
-        "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/12/testimonuial1.png",
+      imgUrl: "/client/arvind.jpg",
       name: "ARVIND SRIVASTAVA",
       title: "joint registrar, The Heritage College",
       review:
@@ -44,9 +40,8 @@ export default function Review() {
     },
 
     {
-      imgUrl:
-        "http://shtheme.info/demosd/anondho/wp-content/uploads/2019/11/01.png",
-      name: "DILIP SHAH, dean",
+      imgUrl: "/client/dilip.jpg",
+      name: "DILIP SHAH",
       title: "Dean, Bhawanipur College",
       review:
         "Youngotsav was a wonderfully organized event that brought out the true talent and vibrancy of our students. The telecast on Taaza TV gave them a huge morale boost and a platform to shine. The activities, gifts, and overall execution reflected great planning and showcased youth culture beautifully.",
@@ -58,33 +53,33 @@ export default function Review() {
   const currentReview = () => reviews[reviewId];
   const nextReview = () => reviews[(reviewId + 1) % reviews.length];
   return (
-    <section className="relative flex w-screen flex-col items-center gap-8 px-8 py-16 hover:[&>button]:opacity-100">
+    <section className="relative flex w-screen flex-col items-center gap-8 px-8 py-4 md:py-16 hover:[&>button]:opacity-100">
       <hr className="border-secondary w-16 border-t-4" />
       <div className="mb-8 text-4xl font-bold md:text-6xl">Reviews</div>
       <div className="flex items-center gap-8">
         <img
           src={lastReview().imgUrl}
-          className="h-16 w-16 brightness-75"
+          className="h-16 w-16 rounded-full brightness-75"
           onClick={() =>
             setReviewId((reviewId + reviews.length - 1) % reviews.length)
           }
         />
-        <img src={currentReview().imgUrl} className="h-24 w-24" />
+        <img src={currentReview().imgUrl} className="h-24 w-24 rounded-full" />
         <img
           src={nextReview().imgUrl}
           onClick={() => setReviewId((reviewId + 1) % reviews.length)}
-          className="h-16 w-16 brightness-75"
+          className="h-16 w-16 rounded-full brightness-75"
         />
       </div>
 
-      <div className="-mt-4 text-2xl font-bold text-neutral-900 md:text-2xl">
+      <div className="-mt-4 text-center text-2xl font-bold text-neutral-900 md:text-2xl">
         {currentReview().name}
       </div>
-      <div className="text-secondary -mt-8 mb-4 text-lg font-bold tracking-widest uppercase">
+      <div className="text-secondary -mt-8 mb-4 text-center text-lg font-bold tracking-widest uppercase">
         {currentReview().title}
       </div>
 
-      <div className="review w-full max-w-4xl text-center text-2xl/snug font-semibold text-neutral-900 md:text-4xl/snug">
+      <div className="review w-full max-w-4xl text-center text-2xl/snug font-semibold text-neutral-900 md:h-[30rem] md:text-4xl/snug">
         {currentReview().review}
       </div>
 

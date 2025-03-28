@@ -2,7 +2,7 @@ export default function Description() {
   return (
     <section
       id="description"
-      className="flex w-screen items-center justify-between px-4 pt-24 max-md:flex-col md:pl-48"
+      className="flex w-screen items-center justify-between px-4 pt-4 max-md:flex-col md:pl-48"
     >
       <div className="left-content flex flex-col gap-8">
         <hr className="border-primary w-16 border-t-4" />

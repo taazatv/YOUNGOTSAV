@@ -48,26 +48,28 @@ export default function Navbar() {
             </DrawerHeader>
             <div className="text-xl font-bold">About Us</div>
             <div>
-              We must explain to you how all seds this mistakens idea off
-              denouncing pleasures and praising pain was born and I will give
-              you a completed accounts of the system and expound.
+              Taaza TV the only National Hindi News Channel from Eastern India
+              in a motive to interact with public holds a significant number of
+              mass activations in the form of events at various cities.
+              Combining broadcasting with events, brands and participants get an
+              extraordinary exposure.
             </div>
             <div className="text-xl font-bold">Contacts</div>
             <div className="flex items-center gap-4">
               <FontAwesomeIcon icon={faRocket} className="text-primary" />
-              Address Here
+              37 Shakespeare Sarani, Kolkata-17
             </div>
             <div className="flex items-center gap-4">
               <FontAwesomeIcon icon={faPhone} className="text-primary" />
-              Phone No. Here
+              +91 9830797700
             </div>
             <div className="flex items-center gap-4">
               <FontAwesomeIcon icon={faAt} className="text-primary" />
-              Email Address Here
+              vedansh@taazatv.com
             </div>
             <div className="flex w-full justify-center gap-2 text-white">
               <a
-                href="#"
+                href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo"
                 className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&*]:text-white hover:[&*]:text-black"
               >
                 <FontAwesomeIcon icon={faInstagram} />
@@ -75,11 +77,12 @@ export default function Navbar() {
             </div>
           </DrawerContent>
         </Drawer>
-        <a href="#">
+        <a href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-
-        <img className="h-12 max-md:hidden" src="/taaza-tv.png" />
+        <a href="https://taazatv.com/">
+          <img className="h-12 max-md:hidden" src="/taaza-tv.png" />
+        </a>
       </div>
     </section>
   );
