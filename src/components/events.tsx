@@ -2,32 +2,29 @@ import EventCard, { EventCardProps } from "./event-card";
 
 const eventProps: EventCardProps[] = [
   {
-    imgUrl:
-      "https://shtheme.com/demosd/anondho/wp-content/uploads/2019/10/blog-01-1.jpg",
-    date: "October 31, 2019",
-    title: "Designing For Users Across Cultures An Interview",
+    imgUrl: "/dandiya.jpg",
+    date: "30th Sep to 1 Oct, 2025",
+    title: "TAAZA DANDIYA",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-    link: "",
+      "It’s the largest and most prestigious Dandiya and Garba celebration in Eastern India. Over the years, it has earned a reputation for delivering high-energy performances, cultural inclusivity, and memorable experiences. With record-breaking crowd of over 50,000 participants each year, entire Kolkata is a part of this grand festivity.",
+    link: "https://dandiya.taazatv.com/",
   },
   {
-    imgUrl:
-      "https://shtheme.com/demosd/anondho/wp-content/uploads/2019/10/blog-01-1.jpg",
-    date: "October 31, 2019",
-    title: "Designing For Users Across Cultures An Interview",
+    imgUrl: "/kwizdom.webp",
+    date: "JULY 2025",
+    title: "KWIZDOM 3.0",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      "Taaza TV has officially started its flagship quiz competition, KWIZDOM aimed at fostering academic excellence and national pride among students in Kolkata. This unique initiative was started with GRSE (Ministry of Defence) and now reached to 115 schools of Kolkata, where in each student of a class has to give this examination in the school by compulsion. With this activity we reach 50,000 students each year.",
+    link: "https://kwizdom.taazatv.com/",
+  },
+  {
+    imgUrl: "/medha.png",
+    date: "JUNE 2025",
+    title: "MEDHA SAMMAN",
+    description:
+      "This prestigious event is dedicated to recognizing and honoring the exceptional academic achievements of young minds. With a perfect blend of tradition and contemporary excellence, Medha Samman promises to be an unforgettable celebration of brilliance and intellectual prowess. Already in its 15th year – Medha Samman reaches to 100+ schools and more than 20,000 toppers of the city have been honored.",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-  },
-  {
-    imgUrl:
-      "https://shtheme.com/demosd/anondho/wp-content/uploads/2019/10/blog-01-1.jpg",
-    date: "October 31, 2019",
-    title: "Designing For Users Across Cultures An Interview",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
-    link: "https://www.google.com",
+      "This prestigious event is dedicated to recognizing and honoring the exceptional academic achievements of young minds. With a perfect blend of tradition and contemporary excellence, Medha Samman promises to be an unforgettable celebration of brilliance and intellectual prowess. Already in its 15th year – Medha Samman reaches to 100+ schools and more than 20,000 toppers of the city have been honored.",
   },
 ];
 
@@ -38,8 +35,8 @@ export default function Events() {
       className="flex w-screen flex-col items-center gap-8 px-8 py-16"
     >
       <hr className="border-secondary w-16 border-t-4" />
-      <div className="mb-8 text-4xl font-bold md:text-6xl">Events</div>
-      <div className="flex items-center justify-center gap-8 max-md:flex-col">
+      <div className="mb-8 text-4xl font-bold md:text-6xl">Upcoming Events</div>
+      <div className="flex justify-center gap-8 max-md:flex-col">
         {eventProps.map((props, i) => (
           <EventCard {...props} key={i} />
         ))}

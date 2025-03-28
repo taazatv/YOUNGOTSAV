@@ -8,6 +8,14 @@ import { useState } from "react";
 export default function Review() {
   const reviews = [
     {
+      imgUrl: "/client/sagnik banik.jpg",
+      name: "SAGNIK BANIK",
+      title: "MD, AJANTA SHOES & IMPAKTO",
+      review:
+        "I was thoroughly impressed with our partnership at Taaza TV’s Youngotsav.Youngotsav demonstrated exceptional smoothness in execution innovative activities that appealed to a broad spectrum. The differential branding created a distinctive identity that stood out in the market. The setup was both functional and visually impressive, contributing to an overall memorable experience that effectively engaged participants.",
+    },
+
+    {
       imgUrl: "/client/nakul.jpg",
       name: "Nakul jalan",
       title: "vice president, win pens",
@@ -21,14 +29,6 @@ export default function Review() {
       title: "Director @ McNROE - WILD STONE",
       review:
         "Youngotsav was a brilliantly executed college activation, seamlessly blending engaging experiences with strategic branding. The event stood out for its great planning & execution, ensuring high participation from all the colleges where the activity was done.Its unique approach to engage the youth made it a standout campaign, successfully driving mass engagement.A truly well-coordinated and impactful initiative!",
-    },
-
-    {
-      imgUrl: "/client/sagnik banik.jpg",
-      name: "SAGNIK BANIK",
-      title: "MD, AJANTA SHOES & IMPAKTO",
-      review:
-        "I was thoroughly impressed with our partnership at Taaza TV’s Youngotsav.Youngotsav demonstrated exceptional smoothness in execution innovative activities that appealed to a broad spectrum. The differential branding created a distinctive identity that stood out in the market. The setup was both functional and visually impressive, contributing to an overall memorable experience that effectively engaged participants.",
     },
 
     {
