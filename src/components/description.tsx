@@ -7,12 +7,15 @@ export default function Description() {
       <div className="left-content flex flex-col gap-8">
         <hr className="border-primary w-16 border-t-4" />
         <div className="line max-w-md text-4xl/tight font-extrabold text-neutral-900 md:text-6xl/tight">
-          We are permanently anondho club members
+          East India’s Biggest College Activation
         </div>
         <div className="max-w-[44ch] text-lg/loose">
-          Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium
-          doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo
-          inven- tore veritatis et quasi architecto beatae
+          ✅ 17 Top Colleges | ✅ 1Lakh+ Students Reached | ✅ Unmatched
+          Branding Youngotsav 2025 united 1,00,000+ students across 17 colleges
+          in Kolkata. From electrifying talent hunts to thrilling interactive
+          brand experiences, it showcased the vibrant youth culture like never
+          before! Televised on Taaza TV, this one-of-a-kind festival gave
+          students a national platform to shine.
         </div>
       </div>
       <div className="right-content self-end">

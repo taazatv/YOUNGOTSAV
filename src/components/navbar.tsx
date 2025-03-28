@@ -49,9 +49,11 @@ export default function Navbar() {
             </DrawerHeader>
             <div className="text-xl font-bold">About Us</div>
             <div>
-              We must explain to you how all seds this mistakens idea off
-              denouncing pleasures and praising pain was born and I will give
-              you a completed accounts of the system and expound.
+              Taaza TV the only National Hindi News Channel from Eastern India
+              in a motive to interact with public holds a significant number of
+              mass activations in the form of events at various cities.
+              Combining broadcasting with events, brands and participants get an
+              extraordinary exposure.
             </div>
             <div className="text-xl font-bold">Contacts</div>
             <div className="flex items-center gap-4">

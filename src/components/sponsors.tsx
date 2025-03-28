@@ -17,54 +17,54 @@ export default function Sponsors() {
       <div className=".no-scrollbar flex w-full items-center gap-8 overflow-auto py-8">
         <Card
           logoUrl={"/sponsors/snakker.png"}
-          title="Snakker"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Priya Gold Snakker Audition Stage"
+          description="Every performer had to prove their mettle here before stepping onto the grand main stage!"
         />
 
         <Card
           logoUrl={"/sponsors/sah.jpg"}
-          title="Smart And Handsome"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Emami Smart & Handsome Hunt"
+          description="The search for Mr. Smart & Handsome introduced an exciting Instagram voting frenzy, making digital footprints count!"
         />
 
         <Card
           logoUrl={"/sponsors/oshea-herbals.png"}
-          title="Oshea Herbals"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Oshea Beauty Zone "
+          description="A stylish corner where students got introduced to exclusive flaunting confidence with premium skincare range and a voting of the best female performer! "
         />
 
         <Card
           logoUrl={"/sponsors/royal-enfield.jpg"}
-          title="Royal Enfield"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Royal Enfield Test Rides"
+          description="Adrenaline-pumped students experienced the thrill of riding, with interactive games for future  Royal Riders! Tug-of-war by Royal Enfield signified toughness."
         />
 
         <Card
           logoUrl={"/sponsors/win-pens.png"}
-          title="Win Pens"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Win Pens Game Zone "
+          description="The craziest 1-min games featuring Win Pens, where students had a blast with thrilling speed and accuracy challenges!"
         />
 
         <Card
           logoUrl={"/sponsors/wild-stone.png"}
-          title="Wild Stone"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Wild Stone Fitness Battles"
+          description="With the slogan Wild Hai Bro!, extreme fitness challenges and epic stage showdowns pushed students beyond limits!"
         />
 
         <Card
           logoUrl={"/sponsors/bhagwati.png"}
-          title="Bhagwati"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Bhagwati Biscuits Cookie Challenge"
+          description="Face-off cookie games and a fun Never Have I Ever challenge left students craving for more!"
         />
         <Card
           logoUrl={"/sponsors/impakto.png"}
-          title="Impakto"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Impakto Underground Battles "
+          description="Hip-hop dance-offs and rap star contests crowned the ultimate street performers, winning cool Impakto sneakers!"
         />
         <Card
           logoUrl={"/sponsors/nicco-park.jpg"}
-          title="Nicco Park"
-          description="Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqe laudantium totam rem aperiamse"
+          title="Nicco Park Thrill Experience "
+          description="The ultimate adventure partner, inviting students to experience adrenaline-fueled rides at Kolkata’s favorite theme park!"
         />
       </div>
     </section>
