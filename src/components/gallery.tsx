@@ -12,18 +12,18 @@ export default function Gallery() {
         <HoverImage
           className="h-full md:w-2/4"
           src={"/gallery/1.png"}
-          link="#"
+          link="/video.mp4"
         />
         <div className="flex flex-col md:w-1/4">
           <HoverImage
             src={"/gallery/2.png"}
             className="aspect-square w-full"
-            link="#"
+            link="https://youtu.be/4B225E6CS5I?si=RRRX5v2lbsY1C8gJ"
           />
           <HoverImage
             src={"/gallery/3.png"}
             className="aspect-square w-full"
-            link="#"
+            link="https://www.instagram.com/reel/DG7PthdtI98/?igsh=MW02ZGV0c2VlYWM4cA=="
           />
         </div>
         <HoverImage

@@ -2,15 +2,17 @@ import { HorizontalTicker } from "@/components/horizontal-ticker";
 
 export default function Tickers() {
   const colleges = [
-    "College 1",
-    "College 2",
-    "College 3",
-    "College 4",
-    "College 5",
-    "College 6",
-    "College 7",
-    "College 8",
-    "College 9",
+    "/colleges/ADAMAS.png",
+    "/colleges/GNIT-D.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
+    "/colleges/ADAMAS.png",
   ];
   const sponsors = [
     "/sponsors/bhagwati.png",
