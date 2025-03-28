@@ -28,8 +28,10 @@ export default function Navbar() {
         <img src={"/youngotsav.png"} className="h-24" />
       </div>
 
-      <div className="[&*]:hover:text-primary flex items-center gap-8 text-xl font-semibold [&*]:not-hover:text-white [&>a]:max-md:hidden">
-        <a href="#gallery">Gallery</a>
+      <div className="[&_*]:hover:text-primary flex items-center gap-8 text-xl font-semibold [&_*]:not-hover:text-white">
+        <a className="max-md:hidden" href="#gallery">
+          Gallery
+        </a>
         <Drawer>
           <DrawerTrigger className="cursor-pointer text-white">
             <FontAwesomeIcon icon={faBars} />

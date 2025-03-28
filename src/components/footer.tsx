@@ -9,6 +9,7 @@ export default function Footer() {
           src={"/youngotsav.png"}
           className="h-min w-full max-w-md object-contain"
         />
+        <img src={"/poster.jpg"} className="w-full max-w-3xs self-center"></img>
         <div className="flex flex-col gap-4 text-neutral-300">
           <div className="text-xl font-bold">About the Organiser</div>
           <div className="max-w-md">
