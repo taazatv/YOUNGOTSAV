@@ -18,15 +18,15 @@ export default function Tickers() {
     "/colleges/THK.png",
   ];
   const sponsors = [
+    "/sponsors/snakker.png",
+    "/sponsors/sah.jpg",
+    "/sponsors/oshea-herbals.png",
+    "/sponsors/royal-enfield.jpg",
+    "/sponsors/win-pens.png",
+    "/sponsors/wild-stone.png",
     "/sponsors/bhagwati.png",
     "/sponsors/impakto.png",
     "/sponsors/nicco-park.jpg",
-    "/sponsors/oshea-herbals.png",
-    "/sponsors/royal-enfield.jpg",
-    "/sponsors/sah.jpg",
-    "/sponsors/snakker.png",
-    "/sponsors/wild-stone.png",
-    "/sponsors/win-pens.png",
   ];
   return (
     <section id="tickers" className="flex w-screen flex-col gap-4 py-4">
