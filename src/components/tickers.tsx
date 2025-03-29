@@ -19,23 +19,23 @@ export default function Tickers() {
   ];
   const sponsors = [
     "/sponsors/snakker.png",
-    "/sponsors/sah.jpg",
+    "/sponsors/sah.png",
     "/sponsors/oshea-herbals.png",
     "/sponsors/royal-enfield.jpg",
     "/sponsors/win-pens.png",
     "/sponsors/wild-stone.png",
     "/sponsors/bhagwati.png",
-    "/sponsors/impakto.png",
+    "/sponsors/impakto.avif",
     "/sponsors/nicco-park.jpg",
 
     "/sponsors/snakker.png",
-    "/sponsors/sah.jpg",
+    "/sponsors/sah.png",
     "/sponsors/oshea-herbals.png",
     "/sponsors/royal-enfield.jpg",
     "/sponsors/win-pens.png",
     "/sponsors/wild-stone.png",
     "/sponsors/bhagwati.png",
-    "/sponsors/impakto.png",
+    "/sponsors/impakto.avif",
     "/sponsors/nicco-park.jpg",
   ];
   return (

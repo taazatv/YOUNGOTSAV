@@ -22,7 +22,7 @@ export default function Sponsors() {
         />
 
         <Card
-          logoUrl={"/sponsors/sah.jpg"}
+          logoUrl={"/sponsors/sah.png"}
           title="Emami Smart & Handsome Hunt"
           description="The search for Mr. Smart & Handsome introduced an exciting Instagram voting frenzy, making digital footprints count!"
         />
@@ -57,7 +57,7 @@ export default function Sponsors() {
           description="Face-off cookie games and a fun Never Have I Ever challenge left students craving for more!"
         />
         <Card
-          logoUrl={"/sponsors/impakto.png"}
+          logoUrl={"/sponsors/impakto.avif"}
           title="Impakto Underground Battles "
           description="Hip-hop dance-offs and rap star contests crowned the ultimate street performers, winning cool Impakto sneakers!"
         />
