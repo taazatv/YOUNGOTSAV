@@ -27,6 +27,16 @@ export default function Tickers() {
     "/sponsors/bhagwati.png",
     "/sponsors/impakto.png",
     "/sponsors/nicco-park.jpg",
+
+    "/sponsors/snakker.png",
+    "/sponsors/sah.jpg",
+    "/sponsors/oshea-herbals.png",
+    "/sponsors/royal-enfield.jpg",
+    "/sponsors/win-pens.png",
+    "/sponsors/wild-stone.png",
+    "/sponsors/bhagwati.png",
+    "/sponsors/impakto.png",
+    "/sponsors/nicco-park.jpg",
   ];
   return (
     <section id="tickers" className="flex w-screen flex-col gap-4 py-4">
