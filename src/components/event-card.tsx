@@ -27,13 +27,13 @@ export default function EventCard({
 
   return (
     <div className="event-card relative h-full w-full max-w-sm space-y-4">
-      <img className="aspect-[3/2] w-full object-cover" src={imgUrl} />
+      <img className="aspect-[3/2] w-full object-contain" src={imgUrl} />
       <div className="date mt-8 flex items-center gap-2 text-sm font-bold uppercase">
         <FontAwesomeIcon icon={faCalendarCheck} className="text-secondary" />
         <div className="text-xs tracking-widest text-neutral-600">{date}</div>
       </div>
       <div className="title text-2xl/tight font-bold">{title}</div>
-      <div className="desciption h-[10rem] text-sm/snug text-neutral-600">
+      <div className="desciption h-[12rem] text-sm/snug text-neutral-600">
         {description}
       </div>
       <button

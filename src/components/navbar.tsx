@@ -71,6 +71,7 @@ export default function Navbar() {
             </div>
             <div className="flex w-full justify-center gap-2 text-white">
               <a
+                target="_blank"
                 href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo"
                 className="hover:bg-primary flex h-12 w-12 items-center justify-center rounded-full not-hover:[&*]:text-white hover:[&*]:text-black"
               >
@@ -79,10 +80,13 @@ export default function Navbar() {
             </div>
           </DrawerContent>
         </Drawer>
-        <a href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/taazatv.events?igsh=bGNoNTFvczQyd3lo"
+        >
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href="https://taazatv.com/">
+        <a target="_blank" href="https://taazatv.com/">
           <img className="h-12 max-md:hidden" src="/taaza-tv.png" />
         </a>
       </div>

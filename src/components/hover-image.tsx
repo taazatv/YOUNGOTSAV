@@ -14,6 +14,7 @@ export default function HoverImage({
     >
       <div className="hover-effect bg-secondary/50 absolute top-0 left-0 z-10 flex h-full w-full items-center justify-center opacity-0">
         <a
+          target="_blank"
           className="hover:[&_*]:text-primary hover:border-primary bg-primary flex h-20 w-20 items-center justify-center rounded-full text-white hover:bg-white"
           href={link}
         >

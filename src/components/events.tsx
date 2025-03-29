@@ -10,7 +10,7 @@ const eventProps: EventCardProps[] = [
     link: "https://dandiya.taazatv.com/",
   },
   {
-    imgUrl: "/kwizdom.webp",
+    imgUrl: "/kwizdom.png",
     date: "JULY 2025",
     title: "KWIZDOM 3.0",
     description:
@@ -18,7 +18,7 @@ const eventProps: EventCardProps[] = [
     link: "https://kwizdom.taazatv.com/",
   },
   {
-    imgUrl: "/medha.png",
+    imgUrl: "/medha.jpg",
     date: "JUNE 2025",
     title: "MEDHA SAMMAN",
     description:

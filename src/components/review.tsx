@@ -79,12 +79,12 @@ export default function Review() {
         {currentReview().title}
       </div>
 
-      <div className="review w-full max-w-4xl text-center text-2xl/snug font-semibold text-neutral-900 md:h-[30rem] md:text-4xl/snug">
+      <div className="review w-full max-w-4xl text-center text-2xl/snug font-semibold text-neutral-900 md:h-[6rem]">
         {currentReview().review}
       </div>
 
       <button
-        className="border-secondary hover:bg-secondary not-hover:[&*]:text-secondary absolute top-1/2 left-16 flex h-16 w-16 items-center justify-center rounded-full border-2 bg-white opacity-0 hover:[&*]:text-white"
+        className="border-secondary hover:bg-secondary not-hover:[&*]:text-secondary absolute top-1/2 left-16 flex h-16 w-16 items-center justify-center rounded-full border-2 bg-white opacity-0 max-md:hidden hover:[&*]:text-white"
         onClick={() =>
           setReviewId((reviewId + reviews.length - 1) % reviews.length)
         }
@@ -93,7 +93,7 @@ export default function Review() {
       </button>
 
       <button
-        className="border-secondary hover:bg-secondary not-hover:[&*]:text-secondary absolute top-1/2 right-16 flex h-16 w-16 items-center justify-center rounded-full border-2 bg-white opacity-0 hover:[&*]:text-white"
+        className="border-secondary hover:bg-secondary not-hover:[&*]:text-secondary absolute top-1/2 right-16 flex h-16 w-16 items-center justify-center rounded-full border-2 bg-white opacity-0 max-md:hidden hover:[&*]:text-white"
         onClick={() => setReviewId((reviewId + 1) % reviews.length)}
       >
         <FontAwesomeIcon icon={faChevronRight} />
