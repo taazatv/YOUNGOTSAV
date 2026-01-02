@@ -9,6 +9,8 @@ import Review from "./components/review";
 import Events from "./components/events";
 import Banner26 from './components/banner26';
 
+// 
+
 function App() {
   return (
     <div className="flex min-h-svh flex-col items-center overflow-x-hidden">
