@@ -7,7 +7,7 @@ import Gallery from "./components/gallery";
 import Footer from "./components/footer";
 import Review from "./components/review";
 import Events from "./components/events";
-import Banner26 from './components/banner26';
+// import Banner26 from './components/banner26';
 
 // 
 
@@ -18,7 +18,7 @@ function App() {
       <Carousel />
       <Tickers />
       <Description />
-      <Banner26/>
+      {/* <Banner26/> */}
       <Sponsors />
       <Gallery />
       <Review />
