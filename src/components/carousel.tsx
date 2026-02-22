@@ -3,18 +3,19 @@ import mainVideo from "@/assets/video.mp4";
 
 export default function Carousel() {
   return (
-    <section
-      id="carousel"
-      className="relative flex w-screen flex-col items-center overflow-hidden"
-    >
+    <section className="w-screen flex flex-col items-center bg-black">
+      
       <video
         autoPlay
         muted
         loop
         playsInline
         src={topVideo}
-        className="w-full h-[30vh] object-cover"
+        className="w-full max-w-[1200px] h-[30vh] md:h-[35vh] object-contain"
       />
+
+      {/* Responsive Gap */}
+      <div className="h-2 md:h-6" />
 
       <video
         autoPlay
@@ -22,8 +23,9 @@ export default function Carousel() {
         loop
         playsInline
         src={mainVideo}
-        className="w-full h-[45vh] object-cover"
+        className="w-full h-[45vh] md:h-[80vh] object-cover"
       />
+
     </section>
   );
 }
