@@ -3,20 +3,20 @@
 import { useEffect, useState } from 'react';
 
 const colleges = [
-  { name: 'TECHNO INDIA UNIVERSITY (SEC 5)', link: '/register/techno-india-sec5' },
-  { name: 'IEM COLLEGE (ALL CAMPUSES)', link: '/register/iem-college' },
-  { name: 'SISTER NIVEDITA UNIVERSITY', link: '/register/snu' },
-  { name: 'MCKV COLLEGE', link: '/register/mckv' },
-  { name: 'BUDGE BUDGE INSTITUTE OF TECH', link: '/register/bbit' },
-  { name: 'TECHNO INTERNATIONAL NEW TOWN', link: '/register/tint' },
-  { name: 'HERITAGE COLLEGE', link: '/register/heritage' },
-  { name: 'JIMS (MEDICAL)', link: '/register/jims' },
-  { name: 'ST XAVIERS UNIVERSITY', link: '/register/stxaviers' },
-  { name: 'GNIT / GNIHM / DENTAL (JIS)', link: '/register/jis' },
-  { name: 'ADAMAS UNIVERSITY', link: '/register/adamas' },
-  { name: 'BRAINWARE UNIVERSITY', link: '/register/brainware' },
-  { name: 'JIS + NARULA INSTITUTE', link: '/register/jis-narula' },
-  { name: 'THK JAIN COLLEGE', link: '/register/thk-jain' },
+  { name: 'TECHNO INDIA UNIVERSITY (SEC 5)', link: 'https://docs.google.com/forms/d/e/1FAIpQLSdE5E7PdyMM4W3AAYSdv8hhbGAWkrsxlCxTxRtrT33YlODvLw/viewform?usp=header' },
+  { name: 'IEM COLLEGE (ALL CAMPUSES)', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfzanUv5G8CuU0grTPkmhk1hZPMHuPEG_S6aS06D0UtOC21ig/viewform?usp=dialog' },
+  { name: 'SISTER NIVEDITA UNIVERSITY', link: 'https://docs.google.com/forms/d/e/1FAIpQLSckXONzgFUXt4vNfPBWhqbzsOR8aQt0-wMMgKAPrVEUsOwrJg/viewform?usp=publish-editor' },
+  { name: 'MCKV COLLEGE', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfKEIhkMBYZt6JXWNUDQKwHijez8v2H1NCdzkf7SKchBRNY7g/viewform?usp=header' },
+  { name: 'BUDGE BUDGE INSTITUTE OF TECH', link: 'https://docs.google.com/forms/d/e/1FAIpQLSf8EP3J4-CZsOU2TVe0OuzEZwWBRegCGglnz_l4EaXhGSPc2Q/viewform?usp=header' },
+  { name: 'TECHNO INTERNATIONAL NEW TOWN', link: 'https://docs.google.com/forms/d/e/1FAIpQLSdFKJ0zaZbZYytCpl0s1pYKvyxqdRXnFSto3VZAfG9SXHOWiw/viewform?usp=header' },
+  { name: 'HERITAGE COLLEGE', link: 'https://docs.google.com/forms/d/e/1FAIpQLSdI5cYoMV7eFvN-tDhgd5pDuu7YqJWnf8I0m4MXttb3DCp6hg/viewform?usp=header' },
+  { name: 'JIMS (MEDICAL)', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfcy3MPAK-vD2qL8ChAVr-NSCM8TNrr98gbe1CYTcevrhWAOg/viewform?usp=header' },
+  { name: 'ST XAVIERS UNIVERSITY', link: 'https://docs.google.com/forms/d/e/1FAIpQLSdGD5cFeYqLz0DzJfIDzG9iVuT0gFvZV3EzCEzTC058xU_xVQ/viewform?usp=header' },
+  { name: 'GNIT / GNIHM / DENTAL (JIS)', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfsnvov2Xt_lefNBK5ZzxQn_5jGOvpRU8S709PapWaf8ad2vg/viewform?usp=header' },
+  { name: 'ADAMAS UNIVERSITY', link: 'https://docs.google.com/forms/d/e/1FAIpQLSeXnfhY_ctU_XVYZo2edcsuSAloULFrwCYl0UA_kW4RS-PHJw/viewform?usp=header' },
+  { name: 'BRAINWARE UNIVERSITY', link: 'https://docs.google.com/forms/d/e/1FAIpQLScgluIjL3lytziWhNMVj6qSUrM3QQuwRdmC5gqP5EyKjqPzkQ/viewform?usp=header' },
+  { name: 'JIS + NARULA INSTITUTE', link: 'https://docs.google.com/forms/d/e/1FAIpQLSeIpYITSRjKe50TT_uEddUUaDILTGj1pPe2SSJXcyD79hY10A/viewform?usp=header' },
+  { name: 'THK JAIN COLLEGE', link: '/https://docs.google.com/forms/d/e/1FAIpQLSfC-4Hg7vlwIyx5gns4eiuIgvK2AjdfgCLlgOEiErKWDSHs9w/viewform?usp=header' },
 ];
 
 const text = 'CLICK ON YOUR COLLEGE NAME TO REGISTER FOR FREE';
