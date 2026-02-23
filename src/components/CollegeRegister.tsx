@@ -16,7 +16,7 @@ const colleges = [
   { name: 'ADAMAS UNIVERSITY', link: 'https://docs.google.com/forms/d/e/1FAIpQLSeXnfhY_ctU_XVYZo2edcsuSAloULFrwCYl0UA_kW4RS-PHJw/viewform?usp=header' },
   { name: 'BRAINWARE UNIVERSITY', link: 'https://docs.google.com/forms/d/e/1FAIpQLScgluIjL3lytziWhNMVj6qSUrM3QQuwRdmC5gqP5EyKjqPzkQ/viewform?usp=header' },
   { name: 'JIS + NARULA INSTITUTE', link: 'https://docs.google.com/forms/d/e/1FAIpQLSeIpYITSRjKe50TT_uEddUUaDILTGj1pPe2SSJXcyD79hY10A/viewform?usp=header' },
-  { name: 'THK JAIN COLLEGE', link: '/https://docs.google.com/forms/d/e/1FAIpQLSfC-4Hg7vlwIyx5gns4eiuIgvK2AjdfgCLlgOEiErKWDSHs9w/viewform?usp=header' },
+  { name: 'THK JAIN COLLEGE', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfC-4Hg7vlwIyx5gns4eiuIgvK2AjdfgCLlgOEiErKWDSHs9w/viewform?usp=header' },
 ];
 
 const text = 'CLICK ON YOUR COLLEGE NAME TO REGISTER FOR FREE';
