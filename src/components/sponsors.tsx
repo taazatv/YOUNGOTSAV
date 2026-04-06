@@ -18,9 +18,15 @@ export default function Sponsors() {
         </div>
       </div>
       <div className=".no-scrollbar flex w-full items-center gap-8 overflow-auto py-8">
+<Card
+          logoUrl={"/sponsors/cococola.png"}
+          title="Cococola"
+          description="With Coca-Cola in hand, every youth moment becomes more refreshing and memorable."
+        />
+
         <Card
           logoUrl={"/sponsors/snakker.png"}
-          title="Priya Gold Snakker Audition Stage"
+          title="Priya Gold Snakker "
           description="Every performer had to prove their mettle here before stepping onto the grand main stage!"
         />
 

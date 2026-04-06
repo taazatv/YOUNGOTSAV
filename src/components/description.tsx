@@ -13,8 +13,8 @@ export default function Description() {
           ✅ 22 Top Colleges | ✅ 1Lakh+ Students Reached | ✅ Unmatched
           Branding.
           <br /> <br />
-          Youngotsav 2026 united 1,00,000+ students across 22 colleges in
-          Kolkata. From electrifying talent hunts to thrilling interactive brand
+          Youngotsav 2026 united 1,00,000+ students across 14 colleges in
+          Kolkata, 4 colleges in Jharkhand, 4 colleges in Bihar. From electrifying talent hunts to thrilling interactive brand
           experiences, it showcased the vibrant youth culture like never before!
           Televised on Taaza TV, this one-of-a-kind festival gave students a
           national platform to shine.
