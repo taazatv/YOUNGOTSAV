@@ -13,6 +13,7 @@ const colleges = [
   { name: 'GNIT / GNIHM / DENTAL (JIS)', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfsnvov2Xt_lefNBK5ZzxQn_5jGOvpRU8S709PapWaf8ad2vg/viewform?usp=header' },
   { name: 'JIS + NARULA INSTITUTE', link: 'https://docs.google.com/forms/d/e/1FAIpQLSeIpYITSRjKe50TT_uEddUUaDILTGj1pPe2SSJXcyD79hY10A/viewform?usp=header' },
   { name: 'JIS KALYANI', link: 'https://docs.google.com/forms/d/e/1FAIpQLSfC-4Hg7vlwIyx5gns4eiuIgvK2AjdfgCLlgOEiErKWDSHs9w/viewform?usp=header' },
+   { name: 'SNU', link: 'https://docs.google.com/forms/d/e/1FAIpQLSckXONzgFUXt4vNfPBWhqbzsOR8aQt0-wMMgKAPrVEUsOwrJg/viewform?usp=sharing&ouid=107040551144107711130' },
 ];
 
 const text = 'CLICK ON YOUR COLLEGE NAME TO REGISTER FOR FREE';
