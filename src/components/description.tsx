@@ -10,10 +10,10 @@ export default function Description() {
           East India’s Biggest College Activation
         </div>
         <div className="w-full max-w-2xl text-lg/loose">
-          ✅ 17 Top Colleges | ✅ 1Lakh+ Students Reached | ✅ Unmatched
+          ✅ 22 Top Colleges | ✅ 1Lakh+ Students Reached | ✅ Unmatched
           Branding.
           <br /> <br />
-          Youngotsav 2025 united 1,00,000+ students across 17 colleges in
+          Youngotsav 2026 united 1,00,000+ students across 22 colleges in
           Kolkata. From electrifying talent hunts to thrilling interactive brand
           experiences, it showcased the vibrant youth culture like never before!
           Televised on Taaza TV, this one-of-a-kind festival gave students a

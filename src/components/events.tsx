@@ -7,7 +7,7 @@ const eventProps: EventCardProps[] = [
     title: "TAAZA DANDIYA",
     description:
       "It’s the largest and most prestigious Dandiya and Garba celebration in Eastern India. Over the years, it has earned a reputation for delivering high-energy performances, cultural inclusivity, and memorable experiences. With record-breaking crowd of over 50,000 participants each year, entire Kolkata is a part of this grand festivity.",
-    link: "https://dandiya.taazatv.com/",
+    link: "https://taazadandiya.com/",
   },
   {
     imgUrl: "/kwizdom.png",
@@ -15,7 +15,7 @@ const eventProps: EventCardProps[] = [
     title: "KWIZDOM 3.0",
     description:
       "Taaza TV has officially started its flagship quiz competition, KWIZDOM aimed at fostering academic excellence and national pride among students in Kolkata. This unique initiative was started with GRSE (Ministry of Defence) and now reached to 115 schools of Kolkata, where in each student of a class has to give this examination in the school by compulsion. With this activity we reach 50,000 students each year.",
-    link: "https://kwizdom.taazatv.com/",
+    link: "https://kwizdom.com/",
   },
   {
     imgUrl: "/medha.jpg",
@@ -23,8 +23,10 @@ const eventProps: EventCardProps[] = [
     title: "MEDHA SAMMAN",
     description:
       "This prestigious event is dedicated to recognizing and honoring the exceptional academic achievements of young minds. With a perfect blend of tradition and contemporary excellence, Medha Samman promises to be an unforgettable celebration of brilliance and intellectual prowess. Already in its 15th year – Medha Samman reaches to 100+ schools and more than 20,000 toppers of the city have been honored.",
-    details:
-      "This prestigious event is dedicated to recognizing and honoring the exceptional academic achievements of young minds. With a perfect blend of tradition and contemporary excellence, Medha Samman promises to be an unforgettable celebration of brilliance and intellectual prowess. Already in its 15th year – Medha Samman reaches to 100+ schools and more than 20,000 toppers of the city have been honored.",
+    // details:
+    //   "This prestigious event is dedicated to recognizing and honoring the exceptional academic achievements of young minds. With a perfect blend of tradition and contemporary excellence, Medha Samman promises to be an unforgettable celebration of brilliance and intellectual prowess. Already in its 15th year – Medha Samman reaches to 100+ schools and more than 20,000 toppers of the city have been honored.",
+  link: "https://medhasamman.taazatv.com/",
+  
   },
 ];
 
