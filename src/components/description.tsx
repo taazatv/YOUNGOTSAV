@@ -11,7 +11,7 @@ export default function Description() {
         </div>
         <div className="w-full max-w-2xl text-lg/loose">
           ✅ 22 Top Colleges | ✅ 1Lakh+ Students Reached | ✅ Unmatched
-          Branding.
+          Branding | ✅ 3 States.
           <br /> <br />
           Youngotsav 2026 united 1,00,000+ students across 14 colleges in
           Kolkata, 4 colleges in Jharkhand, 4 colleges in Bihar. From electrifying talent hunts to thrilling interactive brand
