@@ -20,7 +20,7 @@ export default function Sponsors() {
       <div className=".no-scrollbar flex w-full items-center gap-8 overflow-auto py-8">
 <Card
           logoUrl={"/sponsors/cococola.png"}
-          title="Cococola"
+          title="Coca-cola"
           description="With Coca-Cola in hand, every youth moment becomes more refreshing and memorable."
         />
 
