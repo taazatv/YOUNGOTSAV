@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 import Review from "./components/review";
 import Events from "./components/events";
 import Banner26 from './components/banner26';
-import CollegeRegister from "./components/CollegeRegister";
+// import CollegeRegister from "./components/CollegeRegister";
 
 // 
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="flex min-h-svh flex-col items-center overflow-x-hidden">
       <Navbar />
-      <CollegeRegister/>
+      {/* <CollegeRegister/> */}
       <Carousel />
       <Tickers />
       <Description />
